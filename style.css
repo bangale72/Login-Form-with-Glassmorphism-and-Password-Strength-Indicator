@@ -1,0 +1,49 @@
+body {
+    font-family: cursive;
+    background: linear-gradient(135deg, #a8c0ff, #3f2b96);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.glassmorph-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#password-strength-text {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn {
+    background: linear-gradient(135deg, #a8c0ff, #3f2b96);
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #3f2b96, #a8c0ff);
+}
+
+@media (max-width: 576px) {
+    .glassmorph-container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .glassmorph-container {
+        max-width: 500px;
+        padding: 3rem;
+    }
+}
