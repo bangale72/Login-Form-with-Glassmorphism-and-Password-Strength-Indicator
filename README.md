@@ -1,5 +1,9 @@
 # Login Form with Glassmorphism and Password Strength Indicator
 
+## Screenshots
+
+![Login Form Screenshot](Screenshot.png)
+
 This repository contains a responsive login form built using HTML, CSS (with Bootstrap and custom styling), and JavaScript. The form includes a stylish glassmorphism effect for a modern look and features a dynamic password strength indicator.
 
 ## Features
@@ -45,10 +49,6 @@ This repository contains a responsive login form built using HTML, CSS (with Boo
 3. **JavaScript (Password Strength)**:
    - The `checkPasswordStrength()` function assesses password strength by checking the length, presence of uppercase letters, and numbers.
    - The color and border of the password input field dynamically change based on the evaluated strength.
-
-## Screenshots
-
-![Login Form Screenshot](Screenshot.png)
 
 ## License
 
